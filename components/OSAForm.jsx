@@ -135,7 +135,7 @@ const OSAForm = () => {
                         handleChange(index, 'nights', newNights);
                       }}
                     />{' '}
-                    Fredag
+                    Fredag-Lördag
                   </label>
                   <label>
                     <input
@@ -148,7 +148,7 @@ const OSAForm = () => {
                         handleChange(index, 'nights', newNights);
                       }}
                     />{' '}
-                    Lördag
+                    Lördag-Söndag
                   </label>
                 </div>
               </div>
