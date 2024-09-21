@@ -3,7 +3,7 @@ import './globals.css';
 import Hero from '@/components/Hero';
 import Header from '@/components/Header';
 import Head from 'next/head';
-import WeddingCountdown from '@/components/WeddingCountdown';
+import WeddingCountdown from '@/components/weddingCountdown';
 // const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
