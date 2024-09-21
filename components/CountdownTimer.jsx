@@ -22,7 +22,7 @@ const CountdownTimer = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <div className="text-center">
+    <div className="text-center flex flex-col items-center">
       <h3 className="text-2xl mb-4 uppercase tracking-widest">Nedräkning till vår stora dag</h3>
       <div className="flex justify-center space-x-4">
         {Object.entries(timeLeft).map(([unit, value]) => (
