@@ -7,16 +7,28 @@ export default function Home() {
 
   return (
     <main className="w-full font-thin">
-      {/* Hero-sektion */}
-      <div className="relative w-full h-screen">
-        <Image
-          src="/images/1weddingByggnad.jpg"
-          alt="Hero image"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center center"
-          priority
-        />
+      {/* Hero-sektion med tre bilder */}
+      <div className="relative w-full h-screen flex ">
+        {['deanjessica2.jpg', 'deanjessica.png', 'deanjessica3.jpg'].map((img, index) => (
+          <div key={index} className="relative flex-1">
+            {' '}
+            {/* Added padding */}
+            <div className="relative w-full h-full ">
+              {' '}
+              {/* Ändrat här */} {/* Added white border */}
+              <Image
+                src={`/images/${img}`}
+                alt={`Dean och Jessica bild ${index + 1}`}
+                layout="fill"
+                objectFit="cover"
+                objectPosition={img === 'deanjessica2.jpg' ? 'center bottom' : 'center center'}
+                priority
+                className="!border-white border-4"
+                style={{ borderColor: 'white' }}
+              />
+            </div>
+          </div>
+        ))}
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white p-4">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-thin mb-4 sm:mb-6 uppercase tracking-widest text-center">
             Dean & Jessica
