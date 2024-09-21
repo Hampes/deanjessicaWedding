@@ -21,11 +21,11 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body className="bg-gray-100 flex justify-center min-h-screen">
-        <div className="w-full max-w-[1200px] bg-white shadow-2xl">
-          <div className="mx-auto px-4 sm:px-6 md:px-8 lg:px-12 flex flex-col items-center">
+        <div className="w-full max-w-[1200px] bg-white shadow-2xl ">
+          <div className="mx-auto px-4 sm:px-6 md:px-8 lg:px-12  flex flex-col items-center">
             <Hero />
             <Header />
-            <main>{children}</main>
+            <main className="w-full">{children}</main>
             <WeddingCountdown />
           </div>
         </div>

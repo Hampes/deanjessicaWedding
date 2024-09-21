@@ -9,7 +9,7 @@ const Hero = () => {
       <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-thin mb-2 sm:mb-3 md:mb-4">
         DEAN & JESSICA
       </h2>
-      <h3 className="text-lg sm:text-xl md:text-2xl font-thin">8 SEPTEMBER 2025</h3>
+      <h3 className="text-lg sm:text-xl md:text-2xl font-thin">12-14 SEPTEMBER 2025</h3>
     </div>
   );
 };
