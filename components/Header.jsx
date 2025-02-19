@@ -16,6 +16,7 @@ const Header = () => {
     { name: 'BOENDE', path: '/boende' },
     { name: 'ÖVRIG INFO', path: '/info' },
     { name: 'OSA', path: '/osa' },
+    { name: 'NYCKELPERSONER', path: '/nyckelpersoner' },
     { name: 'KONTAKTA OSS', path: '/kontakt' },
   ];
 
@@ -32,19 +33,19 @@ const Header = () => {
       <nav
         className={`lg:flex ${
           isMenuOpen ? 'flex' : 'hidden'
-        } flex-col lg:flex-row justify-center items-center py-3 lg:py-6 lg:gap-4 lg:mx-4 xl:mx-12`}
+        } flex-col lg:flex-row justify-center items-center py-3 lg:py-6 lg:gap-2 lg:mx-1 xl:mx-8`}
       >
         {menuItems.map((item, index) => (
           <React.Fragment key={item.name}>
             <Link
               href={item.path}
-              className="hover:text-gray-600 transition-colors py-2 lg:py-0 text-sm sm:text-base lg:text-lg xl:text-xl font-thin tracking-widest"
+              className="hover:text-gray-600 transition-colors py-2 lg:py-0 text-sm sm:text-base lg:text-sm xl:text-base font-thin tracking-widest"
               onClick={() => setIsMenuOpen(false)}
             >
               {item.name}
             </Link>
             {index < menuItems.length - 1 && (
-              <span className="hidden lg:block text-2xl lg:text-3xl xl:text-4xl">•</span>
+              <span className="hidden lg:block text-2xl lg:text-3xl xl:text-3xl">•</span>
             )}
           </React.Fragment>
         ))}
