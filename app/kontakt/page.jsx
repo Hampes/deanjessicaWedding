@@ -32,20 +32,36 @@ const Kontakt = () => {
           att fira vår stora dag med er!
         </p>
 
-        <div className="w-full flex flex-col md:flex-row justify-between">
-          <ContactInfo
-            title="Brud"
-            name="Jessica Erstadius"
-            email="jessica@example.com"
-            phone="070-123 45 67"
-          />
+        <div className="w-full flex flex-col md:flex-col justify-between">
+          <div className="flex justify-around">
+            <ContactInfo
+              title="Brud"
+              name="Jessica Erstadius"
+              email="jessica@example.com"
+              phone="073-506 85 54"
+            />
 
-          <ContactInfo
-            title="Brudgum"
-            name="Dean Karlsson"
-            email="dean@example.com"
-            phone="070-987 65 43"
-          />
+            <ContactInfo
+              title="Brudgum"
+              name="Dean Karlsson"
+              email="dean@example.com"
+              phone="073-043 58 06"
+            />
+          </div>
+          <div className="flex justify-around">
+            <ContactInfo
+              title="Toastmadam"
+              name="Emma Vintberger"
+              email="emma@example.com"
+              phone="076-826 66 36"
+            />
+            <ContactInfo
+              title="Toastmaster"
+              name="Jesper Lundqvist"
+              email="jesper@example.com"
+              phone="073-043 58 06"
+            />
+          </div>
         </div>
 
         {/* ... (Övrig information förblir oförändrad) */}

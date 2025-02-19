@@ -28,7 +28,7 @@ const Nyckelpersoner = () => {
       role: 'Toastmadame',
       description:
         'Med sin otroligt härliga energi och förmåga att sprida glädje i alla rum är Emma som klippt och skuren för att vara Toastmadame. Att hon dessutom är en väldigt nära vän till oss båda gör det väldigt betydelsefullt att hon tackade ja till detta uppdrag.',
-      imageSrc: '/images/emma.jpg',
+      imageSrc: '/images/emma3.jpg',
     },
     {
       name: 'Jesper',
@@ -80,7 +80,7 @@ const Nyckelpersoner = () => {
       role: 'Brudtärna',
       description:
         'En relativt nyfunnen vän, men har på kort tid blivit en av de viktigaste personerna i brudens liv. Med sin härliga energi sprider Emma sån fantastisk glädje, men är även en person som bruden alltid kan förlita sig på.',
-      //   imageSrc: '/images/emma-brudtarna.jpg',
+      imageSrc: '/images/emma3.jpg',
     },
   ];
 
