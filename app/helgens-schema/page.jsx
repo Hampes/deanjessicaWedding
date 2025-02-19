@@ -39,9 +39,14 @@ const Schema = () => {
       events: [
         {
           imageSrc: '/images/weddingbyggnad.jpg',
-          time: 'Från kl 16:00',
+
           description:
-            'Incheckning. Dagen innan bröllopet hoppas vi att så många som möjligt vill komma och umgås med oss på Herrgården! Det bjuds på lite grillmiddag, härlig dryck och roliga aktiviteter, och för de som vill så finns det badtunnor och bastu.',
+            'Dagen innan vigseln hoppas vi att så många som möjligt vill komma och umgås med oss på Herrgården! Det kommer att bjudas på grillade hamburgare, härlig dryck och roliga aktiviteter.',
+        },
+        {
+          imageSrc: '/images/weddingbyggnad.jpg',
+          time: '16.00-17:30',
+          description: 'Incheckning',
         },
       ],
     },
@@ -51,25 +56,42 @@ const Schema = () => {
       events: [
         {
           imageSrc: '/images/weddingBrunch.jpg',
-          time: 'Morgon',
-          description: 'För er som checkat in på fredagen inleds dagen med en härlig brunch.',
+          time: 'Kl 08.00-09.30',
+          description: 'Frukost serveras i Herrgårdens matsal på våning 2.',
         },
         {
           imageSrc: '/images/weddingRoom.jpg',
-          time: 'Från kl 11:00',
-          description: 'Incheckning för er som ankommer på lördagen.',
+          time: 'Kl 11.00-12.00: Lunch',
+          description: 'Enklare lunch kommer kunna hämtas i Herrgårdens kök på våning 2.',
         },
         {
           imageSrc: '/images/weddingKyrka.jpg',
-          time: 'Kl 15:00',
+          time: 'Kl 13.00: Vigsel',
           description:
             'Vigsel i Sura Kyrka, ca 10 minuters bilfärd från Herrgården. Man får själv ansvara för att ta sig till och från kyrkan.',
         },
         {
           imageSrc: '/images/weddingMat.jpg',
-          time: 'Efter vigseln',
+          time: 'Ca kl 15.00: Brudskål',
           description:
-            'Vi ses tillbaka på Herrgården för brudskål och lite mingel innan det är dags för middag och fest i Stallet. Vänligen ange allergier och matpreferenser under OSA-fliken.',
+            'Brudskål och mingel, om vädret tillåter ses vi på terrassen efter vigseln för brudskål och mingel innan middagen.',
+        },
+        {
+          imageSrc: '/images/weddingMat.jpg',
+          time: 'Kl 17.00: Middag',
+          description:
+            'Middag kommer att hållas i Stallet som ligger på andra sidan ån. Vängligen ange allergier och matpreferenser under OSA-fliken.',
+        },
+        {
+          imageSrc: '/images/weddingMat.jpg',
+          time: 'Ca kl 22.00: Fest',
+          description: 'Middagen rundas av och festen börjar!',
+        },
+        {
+          imageSrc: '/images/weddingMat.jpg',
+          time: '01.00: Festern fortsätter',
+          description:
+            'Vid 01.00 måste vi lämna lokalen , men festen fortsätter inne i Herrgårdens valv.',
         },
       ],
     },
@@ -79,13 +101,12 @@ const Schema = () => {
       events: [
         {
           imageSrc: '/images/weddingBreakfast.jpg',
-          time: 'Morgon',
-          description:
-            'För att avrunda helgen på bästa sätt så ses vi på en härlig frukost innan det bär av hemåt.',
+          time: 'Kl 08.30-10.00',
+          description: 'Frukost serveras i Herrgårdens matsal på våning 2.',
         },
         {
           time: 'Senast kl 11:00',
-          description: 'Utcheckning',
+          description: 'Utcheckning, Tack för denna helg!',
         },
       ],
     },

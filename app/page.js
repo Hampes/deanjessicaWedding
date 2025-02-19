@@ -8,25 +8,19 @@ export default function Home() {
   return (
     <main className="w-full font-thin">
       {/* Hero-sektion med tre bilder */}
-      <div className="relative w-full h-screen flex ">
+      <div className="relative w-full flex flex-col sm:flex-row h-[180vw] sm:h-screen">
         {['deanjessica2.jpg', 'deanjessica.png', 'deanjessica3.jpg'].map((img, index) => (
-          <div key={index} className="relative flex-1">
-            {' '}
-            {/* Added padding */}
-            <div className="relative w-full h-full ">
-              {' '}
-              {/* Ändrat här */} {/* Added white border */}
-              <Image
-                src={`/images/${img}`}
-                alt={`Dean och Jessica bild ${index + 1}`}
-                layout="fill"
-                objectFit="cover"
-                objectPosition={img === 'deanjessica2.jpg' ? 'center bottom' : 'center center'}
-                priority
-                className="!border-white border-4"
-                style={{ borderColor: 'white' }}
-              />
-            </div>
+          <div key={index} className="relative flex-1 h-[60vw] sm:h-full">
+            <Image
+              src={`/images/${img}`}
+              alt={`Dean och Jessica bild ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
+              objectPosition={img === 'deanjessica2.jpg' ? 'center bottom' : 'center center'}
+              priority
+              className="!border-white border-4"
+              style={{ borderColor: 'white' }}
+            />
           </div>
         ))}
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white p-4">
@@ -48,14 +42,16 @@ export default function Home() {
         <div className="text-base sm:text-lg space-y-4 sm:space-y-6">
           <p>
             Efter 17 år tillsammans är tiden äntligen kommen för oss att bli man och fru. Du som fått vår
-            inbjudan med länken till denna hemsida är en av de personer som, på ett eller annat vis, är
-            de viktigaste i våra liv. Vi vill förstås att du ska komma till vårt bröllop och dela denna
-            helg med oss!
+            inbjudan är en av de personer som, på ett eller annat vis, är de viktigaste i våra liv. Vi
+            vill förstås att du ska komma till vårt bröllop och dela denna helg med oss!
           </p>
           <p>
             Vi har samlat all information här på hemsidan, på ett och samma ställe för att underlätta för
             oss alla. Här finner du information om vigsel, fest, boende och praktiska detaljer och lite
             annat som ni kan tänkas vilja veta.
+          </p>
+          <p className="text-center">
+            Övernattning erbjuds till självkostnadspris, läs mer under fliken "Boende".
           </p>
           <p className="font-semibold text-center">
             <Link href="/osa" className="hover:underline">

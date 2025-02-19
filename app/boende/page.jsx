@@ -32,15 +32,15 @@ const Boende = () => {
     {
       title: 'Övernattning',
       description:
-        'Vi hoppas såklart att du vill bo över på Herrgården men det får du förstås välja själv. Kostnaden för att bo över under helgen är 750kr per person, per natt. Ni anger när ni OSAr vilka nätter ni önskar att bo över.',
+        'Vi hoppas såklart att du vill bo över på Herrgården men det får du förstås välja själv. Kostnaden för att bo över under helgen är 750kr per person, per natt. Ni anger när ni OSAr vilka nätter ni önskar att bo över. Betalningen behöver vara oss tillhanda senast den 1 juli. Kontonummer: ',
       imageSrc: '/images/weddingRoom.jpg',
     },
-    {
-      title: 'Betalning',
-      description:
-        'Betalningen behöver vara oss tillhanda senast den 1 augusti, använd nedan kontonummer för överföring: [Ange kontonummer här]',
-      imageSrc: '/images/weddingPayment.jpg',
-    },
+    // {
+    //   title: 'Betalning',
+    //   description:
+    //     'Betalningen behöver vara oss tillhanda senast den 1 augusti, använd nedan kontonummer för överföring: [Ange kontonummer här]',
+    //   imageSrc: '/images/weddingPayment.jpg',
+    // },
   ];
 
   return (

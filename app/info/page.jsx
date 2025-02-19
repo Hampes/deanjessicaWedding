@@ -52,10 +52,26 @@ const Info = () => {
           frågor.
         </p>
 
+        <InfoSection title="Mat och dryck">
+          <p>Vi står för all mat och dryck under hela helgen.</p>
+        </InfoSection>
         <InfoSection title="Parkering och transport">
           <p>
             Lättast är att ta sig hit med bil. Det finns relativt gott om parkeringar både utanför
             herrgården samt utanför stallet. Se karta över området under fliken boende.
+          </p>
+        </InfoSection>
+        <InfoSection title="Klädkod">
+          <p>
+            På bröllopsdagen är det mörk kostym som gäller.<br></br> Övriga dagar är det fri klädsel.
+          </p>
+        </InfoSection>
+
+        <InfoSection title="Presenter">
+          <p>
+            Vår största önskan är förstås att just du är med och förgyller denna helg, men önskar du att
+            även ge en gåva skulle vi varmt uppskatta ett bidrag till bröllopsresan. Banköverföring
+            kontonummer: <br></br>Swedbank 8327-9, 764 140 780-9
           </p>
         </InfoSection>
 
@@ -80,18 +96,6 @@ const Info = () => {
             description="Kort beskrivning om Jesper"
             contact="jesper@example.com | 070-987 65 43"
           />
-        </InfoSection>
-
-        <InfoSection title="Klädkod">
-          <p>Mörk kostym.</p>
-        </InfoSection>
-
-        <InfoSection title="Presenter">
-          <p>
-            Vår största önskan är förstås att just du är med och förgyller denna helg, men önskar du att
-            även ge en gåva skulle vi varmt uppskatta ett bidrag till bröllopsresan. Banköverföring
-            kontonummer: 000000000000.
-          </p>
         </InfoSection>
 
         <InfoSection title="Barn">
