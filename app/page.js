@@ -16,7 +16,7 @@ export default function Home() {
               alt={`Dean och Jessica bild ${index + 1}`}
               layout="fill"
               objectFit="cover"
-              objectPosition={img === '2.png' ? 'center bottom' : 'center center'}
+              // objectPosition={img === '2.png' ? 'center bottom' : 'center center'}
               priority
               className="!border-white border-4"
               style={{ borderColor: 'white' }}
