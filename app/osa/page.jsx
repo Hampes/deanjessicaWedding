@@ -9,7 +9,7 @@ const OSA = () => {
     <div className="w-full font-thin">
       <div className="relative w-full h-[60vh]">
         <Image
-          src="/images/osa.webp"
+          src="/images/osa.png"
           alt="OSA hero image"
           layout="fill"
           objectFit="cover"

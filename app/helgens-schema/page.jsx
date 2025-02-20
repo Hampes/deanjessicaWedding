@@ -57,21 +57,22 @@ const Schema = () => {
         {
           imageSrc: '/images/weddingBrunch.jpg',
           time: 'Kl 08.00-09.30',
-          description: 'Frukost serveras i Herrgårdens matsal på våning 2.',
+          description:
+            'För er som anlänt på fredagen så serveras frukost i Herrgårdens matsal på plan 2.',
         },
         {
-          imageSrc: '/images/weddingRoom.jpg',
+          imageSrc: '/images/lunch.png',
           time: 'Kl 11.00-12.00: Lunch',
           description: 'Enklare lunch kommer kunna hämtas i Herrgårdens kök på våning 2.',
         },
         {
-          imageSrc: '/images/weddingKyrka.jpg',
+          imageSrc: '/images/vigsel.png',
           time: 'Kl 13.00: Vigsel',
           description:
             'Vigsel i Sura Kyrka, ca 10 minuters bilfärd från Herrgården. Man får själv ansvara för att ta sig till och från kyrkan.',
         },
         {
-          imageSrc: '/images/weddingMat.jpg',
+          imageSrc: '/images/brudskal.png',
           time: 'Ca kl 15.00: Brudskål',
           description:
             'Brudskål och mingel, om vädret tillåter ses vi på terrassen efter vigseln för brudskål och mingel innan middagen.',
@@ -83,12 +84,12 @@ const Schema = () => {
             'Middag kommer att hållas i Stallet som ligger på andra sidan ån. Vängligen ange allergier och matpreferenser under OSA-fliken.',
         },
         {
-          imageSrc: '/images/weddingMat.jpg',
+          imageSrc: '/images/fest.png',
           time: 'Ca kl 22.00: Fest',
           description: 'Middagen rundas av och festen börjar!',
         },
         {
-          imageSrc: '/images/weddingMat.jpg',
+          imageSrc: '/images/festenfort.png',
           time: '01.00: Festern fortsätter',
           description:
             'Vid 01.00 måste vi lämna lokalen , men festen fortsätter inne i Herrgårdens valv.',
@@ -115,7 +116,7 @@ const Schema = () => {
   return (
     <main className="w-full font-thin">
       {/* Hero-sektion */}
-      <div className="relative w-full h-[60vh]">
+      {/* <div className="relative w-full h-[60vh]">
         <Image
           src="/images/testweddingNice.jpg"
           alt="Hero image"
@@ -124,7 +125,7 @@ const Schema = () => {
           objectPosition="center center"
           priority
         />
-      </div>
+      </div> */}
 
       {/* Innehåll */}
       <div className="max-w-4xl mx-auto px-4 py-12">

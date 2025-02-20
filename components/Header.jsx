@@ -14,9 +14,9 @@ const Header = () => {
     { name: 'VÄLKOMMEN', path: '/' },
     { name: 'HELGENS SCHEMA', path: '/helgens-schema' },
     { name: 'BOENDE', path: '/boende' },
+    { name: 'NYCKELPERSONER', path: '/nyckelpersoner' },
     { name: 'ÖVRIG INFO', path: '/info' },
     { name: 'OSA', path: '/osa' },
-    { name: 'NYCKELPERSONER', path: '/nyckelpersoner' },
     { name: 'KONTAKTA OSS', path: '/kontakt' },
   ];
 

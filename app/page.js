@@ -9,14 +9,14 @@ export default function Home() {
     <main className="w-full font-thin">
       {/* Hero-sektion med tre bilder */}
       <div className="relative w-full flex flex-col sm:flex-row h-[180vw] sm:h-screen">
-        {['deanjessica2.jpg', 'deanjessica.png', 'deanjessica3.jpg'].map((img, index) => (
+        {['2.png', '3.png', '4.png'].map((img, index) => (
           <div key={index} className="relative flex-1 h-[60vw] sm:h-full">
             <Image
               src={`/images/${img}`}
               alt={`Dean och Jessica bild ${index + 1}`}
               layout="fill"
               objectFit="cover"
-              objectPosition={img === 'deanjessica2.jpg' ? 'center bottom' : 'center center'}
+              objectPosition={img === '2.png' ? 'center bottom' : 'center center'}
               priority
               className="!border-white border-4"
               style={{ borderColor: 'white' }}

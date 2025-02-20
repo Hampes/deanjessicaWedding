@@ -8,33 +8,12 @@ const InfoSection = ({ title, children }) => (
   </div>
 );
 
-const ContactCard = ({ name, image, description, contact }) => (
-  <div className="flex flex-col md:flex-row w-full gap-6 items-start mb-8">
-    <div className="md:w-1/3">
-      <Image
-        src={image || '/images/placeholder.jpg'}
-        alt={name}
-        width={300}
-        height={300}
-        layout="responsive"
-        objectFit="cover"
-        className="rounded-full"
-      />
-    </div>
-    <div className="flex flex-col flex-grow md:w-2/3">
-      <h4 className="text-xl font-semibold mb-2">{name}</h4>
-      <p className="mb-2">{description}</p>
-      <p>{contact}</p>
-    </div>
-  </div>
-);
-
 const Info = () => {
   return (
     <main className="w-full font-thin">
       <div className="relative w-full h-[60vh]">
         <Image
-          src="/images/info.webp"
+          src="/images/ovrigInfo.png"
           alt="Info hero image"
           layout="fill"
           objectFit="cover"
@@ -73,29 +52,6 @@ const Info = () => {
             även ge en gåva skulle vi varmt uppskatta ett bidrag till bröllopsresan. Banköverföring
             kontonummer: <br></br>Swedbank 8327-9, 764 140 780-9
           </p>
-        </InfoSection>
-
-        <InfoSection title="Toastmaster och toastmadame">
-          <p className="mb-4">
-            För att hjälpa oss att se till att detta blir ett minne för livet har vi bett våra
-            fantastiska vänner Jesper och Emma ställa upp som toastmaster och toastmadame. Ni kontaktar
-            dem om allt som rör planering, tal, överraskningar och annat som förgyller vår dag. Se deras
-            kontaktuppgifter nedan.
-          </p>
-
-          <ContactCard
-            name="Emma"
-            image={require('../../public/images/emma.jpg')}
-            description="Kort beskrivning om Emma"
-            contact="emma@example.com | 070-123 45 67"
-          />
-
-          <ContactCard
-            name="Jesper"
-            image={require('../../public/images/jesper.jpg')}
-            description="Kort beskrivning om Jesper"
-            contact="jesper@example.com | 070-987 65 43"
-          />
         </InfoSection>
 
         <InfoSection title="Barn">

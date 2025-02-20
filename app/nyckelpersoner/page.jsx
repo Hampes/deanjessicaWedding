@@ -28,14 +28,14 @@ const Nyckelpersoner = () => {
       role: 'Toastmadame',
       description:
         'Med sin otroligt härliga energi och förmåga att sprida glädje i alla rum är Emma som klippt och skuren för att vara Toastmadame. Att hon dessutom är en väldigt nära vän till oss båda gör det väldigt betydelsefullt att hon tackade ja till detta uppdrag.',
-      imageSrc: '/images/emma3.jpg',
+      imageSrc: '/images/emma.png',
     },
     {
       name: 'Jesper',
       role: 'Toastmaster',
       description:
         'En riktig stämningshöjare som kan få vilken fest som helst att bli lyckad. Precis vad vi letar efter i en Toastmaster! Vi är övertygade om att Jesper kommer se till att detta blir en oförglömlig kväll!',
-      imageSrc: '/images/jesper.jpg',
+      imageSrc: '/images/jesper.png',
     },
   ];
 
@@ -45,7 +45,7 @@ const Nyckelpersoner = () => {
       role: 'Best man',
       description:
         'Har känt brudgummen sedan barnsben. Är delvis ansvarig för att ha tänt brudgummens intresse för vin. Delat många stunder i skidbacken och skidspåret tillsammans, bland annat genom två vasalopp.',
-      //   imageSrc: '/images/joakim.jpg',
+      imageSrc: '/images/johocke.png',
     },
     {
       name: 'Tobias',
@@ -59,7 +59,7 @@ const Nyckelpersoner = () => {
       role: 'Marskalk',
       description:
         'Har även han känt brudgummen i väldigt många år, gjort flera resor ihop och vart kollegor i över 10 år. Brudgummen har även fått den stora äran att vara gudfar till Cristophers dotter.',
-      //   imageSrc: '/images/cristopher.jpg',
+      imageSrc: '/images/grek.png',
     },
     {
       name: 'Klara',
@@ -80,13 +80,13 @@ const Nyckelpersoner = () => {
       role: 'Brudtärna',
       description:
         'En relativt nyfunnen vän, men har på kort tid blivit en av de viktigaste personerna i brudens liv. Med sin härliga energi sprider Emma sån fantastisk glädje, men är även en person som bruden alltid kan förlita sig på.',
-      imageSrc: '/images/emma3.jpg',
+      imageSrc: '/images/emma.png',
     },
   ];
 
   return (
     <main className="w-full font-thin">
-      <div className="relative w-full h-[50vh]">
+      {/* <div className="relative w-full h-[50vh]">
         <Image
           src="/images/info.webp"
           alt="Nyckelpersoner"
@@ -95,7 +95,7 @@ const Nyckelpersoner = () => {
           objectPosition="center center"
           priority
         />
-      </div>
+      </div> */}
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-4xl font-thin mb-8 uppercase tracking-widest text-center">Nyckelpersoner</h2>
         <p className="text-lg mb-8 text-center">
