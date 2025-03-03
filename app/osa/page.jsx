@@ -44,6 +44,14 @@ const OSA = () => {
             Hemsidan uppdateras löpande med information, och vi kommer att kommunicera viktig information
             till er på mejladressen som ni anger när ni lämnar er O.S.A.
           </p>
+          <p className="font-bold">
+            När ni har skickat in er O.S.A. kommer ni att få en bekräftelse på att den är mottagen. Om ni
+            inte får någon bekräftelse inom en vecka, vänligen kontakta oss på{' '}
+            <a className="text-sky-600 hover:text-sky-200" href="mailto:deanjessica2025@gmail.com">
+              DeanJessica2025@gmail.com
+            </a>
+            .
+          </p>
         </div>
 
         <OSAForm />

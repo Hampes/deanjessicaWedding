@@ -9,14 +9,14 @@ const OSAForm = () => {
     { name: '', email: '', attending: 'yes', nights: [], song: '', message: '' },
   ]);
 
-  const handleCodeSubmit = (e) => {
-    e.preventDefault();
-    if (code.toLowerCase() === 'jessiedean2025') {
-      setIsCodeValid(true);
-    } else {
-      alert('Felaktig kod. Försök igen.');
-    }
-  };
+  // const handleCodeSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (code.toLowerCase() === 'jessiedean2025') {
+  //     setIsCodeValid(true);
+  //   } else {
+  //     alert('Felaktig kod. Försök igen.');
+  //   }
+  // };
 
   const handleAddGuest = () => {
     setGuests([...guests, { name: '', email: '', attending: 'yes', nights: [], song: '', message: '' }]);
@@ -45,7 +45,7 @@ const OSAForm = () => {
       });
       const data = await response.json();
       if (response.ok) {
-        alert('Tack för din OSA!');
+        alert('Tack, vi återkommer med bekräftelse inom kort!');
         setGuests([{ name: '', email: '', attending: 'yes', nights: [], song: '', message: '' }]);
         setIsCodeValid(false);
       } else {
@@ -57,26 +57,26 @@ const OSAForm = () => {
     }
   };
 
-  if (!isCodeValid) {
-    return (
-      <form onSubmit={handleCodeSubmit} className="w-full mt-8 space-y-6">
-        <div className="border p-4 rounded-lg">
-          <h3 className="text-xl mb-4">Ange kod för att OSA</h3>
-          <input
-            type="text"
-            value={code}
-            onChange={(e) => setCode(e.target.value)}
-            className="w-full p-2 border rounded"
-            placeholder="Ange kod"
-            required
-          />
-        </div>
-        <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-          Verifiera kod
-        </button>
-      </form>
-    );
-  }
+  // if (!isCodeValid) {
+  //   return (
+  //     <form onSubmit={handleCodeSubmit} className="w-full mt-8 space-y-6">
+  //       <div className="border p-4 rounded-lg">
+  //         <h3 className="text-xl mb-4">Ange kod för att OSA</h3>
+  //         <input
+  //           type="text"
+  //           value={code}
+  //           onChange={(e) => setCode(e.target.value)}
+  //           className="w-full p-2 border rounded"
+  //           placeholder="Ange kod"
+  //           required
+  //         />
+  //       </div>
+  //       <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+  //         Verifiera kod
+  //       </button>
+  //     </form>
+  //   );
+  // }
 
   return (
     <form onSubmit={handleSubmit} className="w-full mt-8 space-y-6">
