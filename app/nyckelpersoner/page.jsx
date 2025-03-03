@@ -52,7 +52,7 @@ const Nyckelpersoner = () => {
       role: 'Marskalk',
       description:
         'Brudgummens vapendragare under gymnasiet. Har tillsammans hittat på en hel del hyss genom åren, och fortsätter skapa härliga minnen tillsammans.      ',
-      //   imageSrc: '/images/tobias.jpg',
+      imageSrc: '/images/tobbe.png',
     },
     {
       name: 'Cristopher',
@@ -66,14 +66,14 @@ const Nyckelpersoner = () => {
       role: 'Hederstärna',
       description:
         'Har funnits i brudens liv sedan tidiga tonår. Alla som känner Klara kan nog hålla med om att en mer omtänksam person inte går att hitta. Genom vått och torrt ställer hon alltid upp!      ',
-      //   imageSrc: '/images/klara.jpg',
+      imageSrc: '/images/klara.png',
     },
     {
       name: 'Natalie',
       role: 'Brudtärna',
       description:
         'Brudens äldsta vän. Har funnits vid brudens sida genom det mesta i livet. Från högstadiet, till gymnasiet och sedan vidare i vuxenlivet med alla toppar och dalar det innebär. En sån varm person som alltid har andras bästa i åtanke!      ',
-      //   imageSrc: '/images/natalie.jpg',
+      imageSrc: '/images/natalie.png',
     },
     {
       name: 'Emma',

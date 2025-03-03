@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const InfoBlock = ({ title, description, imageSrc }) => (
+const InfoBlock = ({ title, description, description2, description3, imageSrc }) => (
   <div className="flex flex-col md:flex-row w-full gap-6 items-start mb-8 border-b border-gray-300 pb-8">
     <div className="md:w-1/3">
       <Image
@@ -17,6 +17,8 @@ const InfoBlock = ({ title, description, imageSrc }) => (
     <div className="flex flex-col flex-grow md:w-2/3">
       <h3 className="font-semibold mb-2 text-xl">{title}</h3>
       <p className="text-lg">{description}</p>
+      <p className="text-lg">{description2}</p>
+      <p className="text-lg font-bold">{description3}</p>
     </div>
   </div>
 );
@@ -32,7 +34,10 @@ const Boende = () => {
     {
       title: 'Övernattning',
       description:
-        'Vi hoppas såklart att du vill bo över på Herrgården men det får du förstås välja själv. Kostnaden för att bo över under helgen är 750kr per person, per natt. Ni anger när ni OSAr vilka nätter ni önskar att bo över. Betalningen behöver vara oss tillhanda senast den 1 juli. Kontonummer: ',
+        'Vi hoppas såklart att du vill bo över på Herrgården men det får du förstås välja själv. Kostnaden för att bo över under helgen är 750kr per person, per natt.  ',
+      description2:
+        'Ni anger när ni OSAr vilka nätter ni önskar att bo över. Betalningen behöver vara oss tillhanda senast den 1 juli.',
+      description3: 'Swedbank 8327-9, 764 140 780-9',
       imageSrc: '/images/weddingRoom.jpg',
     },
     // {
