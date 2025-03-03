@@ -13,11 +13,11 @@ const Info = () => {
     <main className="w-full font-thin">
       <div className="relative w-full h-[60vh]">
         <Image
-          src="/images/ovrigInfo.png"
+          src="/images/testBild.jpg"
           alt="Info hero image"
           layout="fill"
           objectFit="cover"
-          objectPosition="center center"
+          objectPosition="center bottom"
           priority
         />
       </div>

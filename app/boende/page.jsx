@@ -34,7 +34,7 @@ const Boende = () => {
     {
       title: 'Övernattning',
       description:
-        'Vi hoppas såklart att du vill bo över på Herrgården men det får du förstås välja själv. Kostnaden för att bo över under helgen är 750kr per person, per natt.  ',
+        'Vi hoppas såklart att du vill bo över på Herrgården men det får du förstås välja själv. Kostnaden för att bo över under helgen är 750kr per person, per natt, i detta ingår såklart mat och dryck under hela helgen.   ',
       description2:
         'Ni anger när ni OSAr vilka nätter ni önskar att bo över. Betalningen behöver vara oss tillhanda senast den 1 juli.',
       description3: 'Swedbank 8327-9, 764 140 780-9',
