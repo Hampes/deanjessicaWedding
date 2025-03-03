@@ -5,7 +5,9 @@ const ContactInfo = ({ title, name, email, phone }) => (
   <div className="mb-8">
     <h3 className="text-2xl font-light mb-4">{title}</h3>
     <p className="mb-2">{name}</p>
-    <p className="mb-2">E-post: {email}</p>
+    <a href={`mailto:${email}`} className="mb-2 text-sky-600 hover:text-sky-200">
+      Email: {email}
+    </a>
     <p>Telefon: {phone}</p>
   </div>
 );
@@ -37,14 +39,14 @@ const Kontakt = () => {
             <ContactInfo
               title="Brud"
               name="Jessica Erstadius"
-              email="jessica@example.com"
+              email="DeanJessica2025@gmail.com"
               phone="073-506 85 54"
             />
 
             <ContactInfo
               title="Brudgum"
               name="Dean Karlsson"
-              email="dean@example.com"
+              email="DeanJessica2025@gmail.com"
               phone="073-043 58 06"
             />
           </div>
@@ -52,13 +54,13 @@ const Kontakt = () => {
             <ContactInfo
               title="Toastmadam"
               name="Emma Vintberger"
-              email="emma@example.com"
+              email="testtesttest123@example.com"
               phone="076-826 66 36"
             />
             <ContactInfo
               title="Toastmaster"
               name="Jesper Lundqvist"
-              email="jesper@example.com"
+              email="testtesttest123@example.com"
               phone="073-043 58 06"
             />
           </div>

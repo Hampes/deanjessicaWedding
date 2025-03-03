@@ -44,7 +44,7 @@ const Schema = () => {
             'Dagen innan vigseln hoppas vi att så många som möjligt vill komma och umgås med oss på Herrgården! Det kommer att bjudas på grillade hamburgare, härlig dryck och roliga aktiviteter.',
         },
         {
-          imageSrc: '/images/weddingbyggnad.jpg',
+          imageSrc: '/images/nyBild1.jpg',
           time: '16.00-17:30',
           description: 'Incheckning',
         },
