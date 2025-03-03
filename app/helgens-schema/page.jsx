@@ -61,6 +61,11 @@ const Schema = () => {
             'För er som anlänt på fredagen så serveras frukost i Herrgårdens matsal på plan 2.',
         },
         {
+          imageSrc: '/images/weddingbyggnad.jpg',
+          time: 'Kl 11.00: Incheckning',
+          description: '11.00 incheckning för er som ankommer på lördagen .',
+        },
+        {
           imageSrc: '/images/lunch.png',
           time: 'Kl 11.00-12.00: Lunch',
           description: 'Enklare lunch kommer kunna hämtas i Herrgårdens kök på våning 2.',
