@@ -10,6 +10,7 @@ export async function POST(request) {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
+      secure: true,
     });
 
     // Formatera gästinformationen

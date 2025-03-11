@@ -14,6 +14,7 @@ exports.handler = async (event, context) => {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
+      secure: true,
     });
 
     const emailBody = guests
