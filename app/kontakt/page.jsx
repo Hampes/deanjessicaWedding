@@ -15,7 +15,7 @@ const ContactInfo = ({ title, name, email, phone }) => (
 const Kontakt = () => {
   return (
     <div className="w-full font-thin">
-      <div className="relative w-full h-[60vh]">
+      {/* <div className="relative w-full h-[60vh]">
         <Image
           src="/images/weddingContact.webp"
           alt="Kontakt hero image"
@@ -24,7 +24,7 @@ const Kontakt = () => {
           objectPosition="center bottom"
           priority
         />
-      </div>
+      </div> */}
 
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-4xl font-thin mb-8 uppercase tracking-widest text-center">Kontakta oss</h2>
@@ -35,7 +35,7 @@ const Kontakt = () => {
         </p>
 
         <div className="w-full flex flex-col md:flex-col justify-between">
-          <div className="flex justify-around">
+          <div className="flex flex-col md:flex-row justify-around ">
             <ContactInfo
               title="Brud"
               name="Jessica Erstadius"
@@ -50,7 +50,7 @@ const Kontakt = () => {
               phone="073-043 58 06"
             />
           </div>
-          <div className="flex justify-around">
+          <div className="flex flex-col md:flex-row justify-around">
             <ContactInfo
               title="Toastmadam"
               name="Emma Vintberger"
