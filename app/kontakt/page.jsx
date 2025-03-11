@@ -54,14 +54,14 @@ const Kontakt = () => {
             <ContactInfo
               title="Toastmadam"
               name="Emma Vintberger"
-              email="testtesttest123@example.com"
+              email="thetoasters2025@gmail.com"
               phone="076-826 66 36"
             />
             <ContactInfo
               title="Toastmaster"
               name="Jesper Lundqvist"
-              email="testtesttest123@example.com"
-              phone="073-043 58 06"
+              email="thetoasters2025@gmail.com"
+              phone="076-016 94 50"
             />
           </div>
         </div>
