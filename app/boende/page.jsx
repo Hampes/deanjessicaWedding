@@ -1,7 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
 
-const InfoBlock = ({ title, description, description2, description3, imageSrc }) => (
+const InfoBlock = ({
+  title,
+  description,
+  description2,
+  description3,
+  description4,
+  description5,
+  imageSrc,
+}) => (
   <div className="flex flex-col md:flex-row w-full gap-6 items-start mb-8 border-b border-gray-300 pb-8">
     <div className="md:w-1/3">
       <Image
@@ -18,7 +26,9 @@ const InfoBlock = ({ title, description, description2, description3, imageSrc })
       <h3 className="font-semibold mb-2 text-xl">{title}</h3>
       <p className="text-lg">{description}</p>
       <p className="text-lg">{description2}</p>
-      <p className="text-lg font-bold">{description3}</p>
+      <p className="text-lg font-semibold">{description3}</p>
+      <p className="text-lg font-semibold">{description4}</p>
+      <p className="text-lg font-bold">{description5}</p>
     </div>
   </div>
 );
@@ -38,6 +48,8 @@ const Boende = () => {
       description2:
         'Ni anger när ni OSAr vilka nätter ni önskar att bo över. Betalningen behöver vara oss tillhanda senast den 1 juli.',
       description3: 'Swedbank 8327-9, 764 140 780-9',
+      description4: 'Går även bra att swisha till 0735068554',
+      description5: 'Glöm inte att ange ert namn vid betalning.',
       imageSrc: '/images/weddingRoom.jpg',
     },
     // {
