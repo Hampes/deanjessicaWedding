@@ -58,6 +58,12 @@ export default function Home() {
               O.S.A. senast den 1 juni.
             </Link>
           </p>
+          <p className="text-xl">
+            Alla tal och dylikt ska anmälas i förväg till toastmasters på mailadress:{' '}
+            <a className="font-semibold text-sky-600" href="mailto:thetoasters2025@gmail.com">
+              thetoasters2025@gmail.com
+            </a>
+          </p>
           <p className="text-center">
             Tveka inte att kontakta oss om ni undrar över något. Vi ser fram emot att se er på vårt
             bröllop!

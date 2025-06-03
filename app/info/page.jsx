@@ -53,6 +53,14 @@ const Info = () => {
             kontonummer: <br></br>Swedbank 8327-9, 764 140 780-9
           </p>
         </InfoSection>
+        <InfoSection title="Tal och spex">
+          <p>
+            Alla tal och dylikt ska anmälas i förväg till toastmasters på mailadress:{' '}
+            <a className="font-semibold text-sky-600" href="mailto:thetoasters2025@gmail.com">
+              thetoasters2025@gmail.com
+            </a>
+          </p>
+        </InfoSection>
 
         <InfoSection title="Barn">
           <p>Vi älskar era ungar men denna helg passar det bättre att de är hemma med sin barnvakt.</p>
