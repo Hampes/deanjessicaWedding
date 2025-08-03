@@ -61,7 +61,7 @@ const Kontakt = () => {
               title="Toastmaster"
               name="Jesper Lundqvist"
               email="thetoasters2025@gmail.com"
-              phone="076-016 94 50"
+              phone="076-016 94 58"
             />
           </div>
         </div>
