@@ -1,6 +1,6 @@
 import CountdownTimer from '@/components/CountdownTimer';
 const WeddingCountdown = () => {
-  const weddingDate = new Date('2025-09-11T13:00:00');
+  const weddingDate = new Date('2025-09-13T11:00:00');
 
   return (
     <div className="w-10/12 border-t-[1px] border-gray-300 ">
