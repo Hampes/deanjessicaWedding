@@ -80,7 +80,7 @@ export default function Home() {
               O.S.A.
             </Link>
             <Link
-              href="/schema"
+              href="/helgens-schema"
               className="bg-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 text-center"
             >
               Schema
